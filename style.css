@@ -1,0 +1,69 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body, main, section{
+    height: max-content;
+}
+
+body{
+    min-height: 90vh;
+    background-color: #dadcdd;
+    display: flex;
+
+}
+
+main{
+    width: 85vw;
+    margin-left:5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+ul{
+    list-style: none;   
+    padding: 0%;
+    /* margin: 0%; */
+    margin:5%;
+    padding-bottom: 2%;
+    min-height: max-content;
+    border: 1px solid black;
+
+}
+
+.li-padding{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+section{
+    display: flex;
+    width: 100vw;
+    flex-flow: row wrap;
+}
+
+section > div{
+    width:450px;
+}
+
+img{
+    width: 400px;
+    height: 250px;
+    background-color: black;
+}
+
+.price-add-to-cart-button{
+    display: flex;
+    justify-content:space-between;
+}
+
+.add-to-cart-button{
+    color: white;
+    background-color: #2dbe21;
+    border: none;
+    width: 25%;
+    padding: 1%;
+    min-width: max-content;
+    border-radius: 5%;
+}
